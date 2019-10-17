@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Automation Test Suite" parallel="methods" thread-count="2" >
+
+	<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="Test Cases">
+		<classes>
+			<class name="com.cptest.qa.testcases.LoginPageTest"></class>
+<!--			<class name="com.cptest.qa.testcases.HomePageTest"></class>-->
+<!--			<class name="com.cptest.qa.testcases.ContactsPageTest"></class>-->
+
+		</classes>
+	</test>
+</suite>

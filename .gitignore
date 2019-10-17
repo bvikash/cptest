@@ -1,0 +1,15 @@
+.*/
+.DS_Store
+tmp/
+logs/
+*.backup
+*.*~
+
+**/src.tgz
+**/target.tgz
+**/classes
+**/tmp/
+**/logs/
+**/target/
+**/examples/
+/target/
