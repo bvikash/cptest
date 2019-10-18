@@ -32,7 +32,8 @@ Execute test:
 
 mvn clean test -Denv=qa
 ```
-
+###Reports
+Reports are available under /target/custom_report folder after running mvn clean test
 
 
 
