@@ -2,7 +2,7 @@
 
 A quickstarter guide using page object model to automate any application.
 
-
+![](cptest_tool.png)
 
 ## Features
 * Test application against mutiple enviornment via config
