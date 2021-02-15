@@ -77,7 +77,7 @@ public class TestUtil extends TestBase {
         // Use jQuery to add jquery-growl styles to the page
         js.executeScript("$('head').append('<link rel=\"stylesheet\" "
                 + "href=\"https://the-internet.herokuapp.com/css/jquery.growl.css\" " + "type=\"text/css\" />');");
-        Thread.sleep(5000);
+        Thread.sleep(6000);
 
         // jquery-growl w/ no frills
         js.executeScript("$.growl({ title: 'GET', message: '/' });");
